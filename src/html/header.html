@@ -1,0 +1,98 @@
+<header>
+	<div class="wrap">
+		<div class="inner-line">
+			<div class="menu">
+				<img src="@img/menu.png" alt="Меню">
+			</div>
+			<div class="logo">
+				<img src="@img/logo.png" alt="Логотип" />
+			</div>
+			<div class="city">
+				<img src="@img/city.png" alt="Локация" class="city__logo" />
+				<span>Москва</span>
+				<div class="pc-city-block studika-modal hide" id="pc-header-region" >
+					<div class="city-search-block" onclick="event.stopPropagation()">
+						<input class="city-search" autocomplete="none" onfocus="this.setAttribute('autocomplete', 'none');" type="text" placeholder="Регион, город, населенный пункт">
+						<svg class="city-search-clear" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="#A7A7A7">
+
+							</path>
+						</svg>
+					</div>
+					<div class="city-selected" onclick="event.stopPropagation()">
+						<div class="city-select" data-id="all" data-type="country">
+							Россия
+							<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="#A7A7A7">
+								</path>
+							</svg>
+						</div>
+					</div>
+					<div class="all-city-container ps ps--active-y" onclick="event.stopPropagation()">
+						<div class="all-city-loaded" style="opacity: 1;">
+							<div class="city-item" data-id="all" data-type="country">
+								<span class="city-name">Россия</span>
+							</div>
+							<div class="city-item" data-id="24" data-type="area">
+								<span class="city-name">Алтайский край</span>
+							</div>
+							<div class="city-item" data-id="15" data-type="city">
+								<span class="city-name">Барнаул</span>
+								<span class="city-state">Алтайский край</span>
+							</div>
+							<div class="city-item" data-id="16" data-type="city">
+								<span class="city-name">Бийск</span>
+								<span class="city-state">Алтайский край</span>
+							</div>
+						</div>
+						<div class="all-city-loaded-results">
+							
+						</div>
+						<div class="ps__rail-x" >
+							<div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+						</div>
+						<div class="ps__rail-y" >
+							<div class="ps__thumb-y" tabindex="0" ></div>
+						</div>
+					</div>
+					<div class="apply-city-container" onclick="event.stopPropagation()">
+						<button class="btn save-city" type="button">Сохранить</button>
+					</div>
+				</div>
+			</div>
+			<div class="search">
+				<img src="@img/search.png" alt="Лупа" class="search__logo" />
+				<span>Учебное заведение, специальность или профессия</span>
+			</div>
+			<div class="favorites">
+				<img src="@img/favorite.png" alt="лайк" class="favorites__logo" />
+				<span>1</span>
+			</div>
+			<div class="profile">
+				<span class="name">Екатерина</span>
+				<img src="@img/avatar.png" alt="Аватар" class="avatar"></img>
+			</div>
+		</div>
+		<div class="menu-points__wrap">
+			<ul class="menu-poinst">
+				<li>Вузы</li>
+				<li>Колледжи</li>
+				<li>Техникумы</li>
+				<li>Училища</li>
+				<li>Специальности
+					<div class="sub-menu">
+						<div class="sub-menu__item">Среднее</div>
+						<div class="sub-menu__item">Высшее</div>
+					</div>
+				</li>
+				<li>Профессии</li>
+				<li>Отзывы</li>
+				<li>Учебным заведениям</li>
+				<li>Тест на профориентацию</li>
+			</ul>
+			<div class="arrow-right">
+				<img src="@img/arrow right.png" alt="Вправо">
+			</div>
+		</div>
+	</div>
+</header>
